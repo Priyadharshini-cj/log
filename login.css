@@ -1,0 +1,217 @@
+@media(max-width:600px){
+    body{
+        background-color: white;
+        /* font-size: 16px; */
+        display: grid;
+        /* grid-template-columns:0%; */
+        gap:10px; 
+    } 
+    .container{
+        display: grid;
+        text-align: center;
+
+    }
+    .head h1{
+        padding: 5px;
+        border: none;
+        justify-content: center;
+        color: #246fd1;
+        font-size:25px;
+        padding-right: 35px;
+
+    }
+    @media(min-width:320px){
+        h1 {
+            margin-left: 30px;
+        }
+    }
+    .head p {
+        /* width:350px;
+        height: 150px; */
+        font-size: 12px;
+        /* position:static; */
+        display: grid;
+        /* margin-right: 150px; */
+        /* margin-bottom: 10px;
+        margin-top: 10px; */
+        color: black;
+    }
+    .login-box{
+        display: grid;
+        justify-content: center;
+        background: #fff;
+        padding: 40px;
+        width: 150px;
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+        text-align: center;
+        /* margin-left: 70px; */
+        @media(min-width:320px){
+            margin:10px 10px;
+            margin-right: 20px;
+            padding-right: 55px;
+            /* padding-left: 10px; */
+            margin-left: 20px;
+        }
+        @media(min-width:375px){
+            margin-left: 50px;
+        }
+        @media(min-width:425px){
+            margin-left: 80px;
+        }
+    }
+    .login-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 12px 0;
+        border: 1px solid #dddfe2;
+        border-radius: 5px;
+        font-size: 13px;
+        
+    }
+    .submit{
+        width: 100%;
+        padding: 12px;
+        margin-top: 12px;
+        background-color: #1877f2;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .submit:hover {
+        background-color: #1877f2;
+        cursor: pointer;
+    }
+    
+    .login-box a {
+        display: block;
+        margin-top: 12px;
+        color: #1877f2;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .login-box hr {
+        margin: 20px 0;
+    }
+    .create-account {
+        width: 70%;
+        padding: 12px;
+        margin-top: 12px;
+        background-color:#1acb52;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight:bold;
+        border-radius: 5px;
+       
+        cursor: pointer;
+    }
+    
+    .create-account:hover {
+        background-color:#1acb52;
+    }
+
+}
+@media (min-width:600px){
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    /* background: #f0f2f5; */
+    background-color: rgb(248, 244, 244);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+.head h1{
+    /* padding: 15px; */
+    padding: 10px;
+    border:none;
+    margin-left: 10%;
+    
+    justify-content: left;
+    color: #246fd1;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-right: 90px; 
+}
+.head p {
+    width:350px;
+    height: 150px;
+    font-size: 16px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.login-box{
+    display: block;
+    background: #fff;
+    padding: 40px;
+    width: 320px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+    text-align: center;
+}
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 9px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 14px;
+    
+}
+.submit{
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #1877f2;
+    cursor: pointer;
+}
+
+.login-box a {
+    display: block;
+    margin-top: 12px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+.login-box hr {
+    margin: 20px 0;
+}
+
+.create-account {
+    width: 70%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color:#1acb52;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight:bold;
+    border-radius: 5px;
+   
+    cursor: pointer;
+}
+
+.create-account:hover {
+    background-color:#1acb52;
+}}
